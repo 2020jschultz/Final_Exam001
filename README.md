@@ -65,6 +65,7 @@ And your good to go!
 
 
 Method 2 - Online Repl.it
+[![Run on Repl.it](https://repl.it/badge/github/AJM10565/Final_Exam001)](https://repl.it/github/AJM10565/Final_Exam001)
 
 In your favorite browser go to REPL.it
 
