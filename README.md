@@ -64,8 +64,14 @@ Move back to the Project folder:
 And your good to go!
 
 
-Method 2: 
-Online Repl.it
+Method 2 - Online Repl.it
+
+In your favorite browser go to REPL.it
+
+In the upper right hand corner click the button that says import repo
+
+Select the tab that says "Import from GitHub" and when it askes you to paste a repo url paste in the url of your FORK of this project. Do not paste in the web address of the original, this will not work for you.
+
 
 ## Instructions for Students taking the test
 
