@@ -15,7 +15,7 @@ def checkisPallendrome(text):
 def tester(text, expected_result):
     actual_result = checkisPallendrome(text)
 
-    print_text = "The text was: " + str(text0) + " | "
+    print_text = "The text was: " + str(text) + " | "
     if expected_result == actual_result:
         print_text += "Correct: " + str(expected_result) + " == " + str(actual_result)
     else:
@@ -29,7 +29,9 @@ if __name__ == "__main__":
     text1 = "Go hang a salami Im a lasagna hog"
     text2 = "She sells sea shells by the sea shore"
     text3 = "race car"
+    text4 = "My school"
 
     # Test it like this
     print(tester(text0, False))
     print(tester(text1, True))
+    print(tester(text4, False))
