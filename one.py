@@ -29,7 +29,7 @@ def tester(text,expected_result):
 
 
 if __name__ == "__main__":
-    # Try it on these to see if it works?
+  # Try it on these to see if it works?
   text0 = "My foot is a hamburger"
   text1 = "Go hang a salami Im a lasagna hog"
   text2 = "She sells sea shells by the sea shore"
