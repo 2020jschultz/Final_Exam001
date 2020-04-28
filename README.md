@@ -7,6 +7,25 @@ Intro to Python Programming Final Exam
 2) Once you have a forked copy of the test, you can start working on the project. I will explain how to set-up 2 kinds of ways for you to work on the test, there are many other ways, but you will have to figure out how to set those up on your own.
 Method 1:
 Command line and local python version
+Clone the project to your local machine:
+'git clone https://github.com/AJM10565/Final_Exam001/'
+Change Directory to the project folder:
+'cd Final_Exam001'
+Set up the python venv (virtual environment)
+'bash setupExam.sh'
+'cd python-virtual-environments'
+'source env_test/bin/activate'
+Install any external libraries:
+'pip install -r requirements.txt'
+From here you can edit the .py files to fill in your solution...
+If you want to take a break from work deactivate your python venv:
+`deactivate`
+If you want to reload the venv all you need to do is change your directory to the project folder again:
+'cd Final_Exam001'
+And then source the venv:
+'cd python-virtual-environments'
+'source env_test/bin/activate'
+
 
 Method 2: 
 Online Repl.it
