@@ -6,7 +6,7 @@
 
 
 def performCalculations(value):
-    
+    result = value
     return result
 
 
@@ -42,8 +42,8 @@ def tester(input, output):
 
 
 if __name__ == "__main__":
-    print(tester(350, 122847))
-    print(tester(37, 1403))
-    print(tester(-40, 1557))
-    print(tester(-2, -1))
-    print(tester(15, 237))
+    print(tester(350, 696))
+    print(tester(37, 70))
+    print(tester(-40, -85))
+    print(tester(-2, -9))
+    print(tester(15, 26))
