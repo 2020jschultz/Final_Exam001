@@ -50,5 +50,7 @@ if __name__ == "__main__":
     # Test it like this
     print(tester(text0, False))
     print(tester(text1, True))
+    print(tester(text2, False))
+    print(tester(text3, True))
     print(tester(text4, False))
     
