@@ -6,10 +6,24 @@
     Try running it on some samples to make sure it works
 """
 
+def reverse(text):
+    return s[::-1]
+
+def remove(text):
+    return text.replace(" ", "")
+
+def lower(text):
+    return text.lower()
 
 def checkisPallendrome(text):
-    result = False
-    return result
+    undercase = lower(text)
+    result = remove(undercase)
+    backwards = reverse(result)
+    if (result == backwards):
+        x = True
+    else:
+        x = False
+    return x
 
 
 def tester(text, expected_result):
@@ -30,8 +44,11 @@ if __name__ == "__main__":
     text2 = "She sells sea shells by the sea shore"
     text3 = "race car"
     text4 = "My school"
-
+    
+    
+    
     # Test it like this
     print(tester(text0, False))
     print(tester(text1, True))
     print(tester(text4, False))
+    
