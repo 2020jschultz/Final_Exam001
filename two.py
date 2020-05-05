@@ -47,6 +47,3 @@ if __name__ == "__main__":
     print(tester(-40, -85))
     print(tester(-2, -9))
     print(tester(15, 26))
-    
-    #f2(f4(value), f3(f2(f2(f1(value, value), f1(value, value)), f1(value, value)), value))
-    #
