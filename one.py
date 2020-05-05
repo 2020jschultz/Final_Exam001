@@ -7,7 +7,7 @@
 """
 
 def reverse(text):
-    return s[::-1]
+    return text[::-1]
 
 def remove(text):
     return text.replace(" ", "")
