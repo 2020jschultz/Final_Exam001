@@ -24,6 +24,14 @@ def tell_story():
     b.eat(h)
     b.eat(i)
     j.eat(b)
+    
+    b.eat(d)
+    b.eat(f)
+    b.eat(j)
+    b.eat(a)
+    b.eat(c)
+    b.eat(k)
+
 
     # replace the replace_me_object
     replace_me_object = b
