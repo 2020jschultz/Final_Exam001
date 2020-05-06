@@ -20,13 +20,12 @@ def tell_story():
     k = Pig()
 
     # Have objects interact
-     
+    
+    e.eat(g)
     b.eat(d)
-    b.eat(f)
-    b.eat(j)
-    b.eat(a)
-    b.eat(c)
+    b.eat(h)
     b.eat(k)
+    b.eat(c)
     j.eat(b)
 
 
