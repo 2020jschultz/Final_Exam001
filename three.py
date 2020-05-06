@@ -20,7 +20,10 @@ def tell_story():
     k = Pig()
 
     # Have objects interact
-    j.eat(b),
+    b.eat(e)
+    b.eat(h)
+    b.eat(i)
+    j.eat(b)
 
     # replace the replace_me_object
     replace_me_object = b
