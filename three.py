@@ -119,4 +119,3 @@ class Pig(Animal):
 
 if __name__ == "__main__":
     print(tell_story()=="Sphinx of black quartz, judge my vow!")
-    print(tell_story())
