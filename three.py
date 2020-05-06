@@ -19,11 +19,8 @@ def tell_story():
     j = Donkey() 
     k = Pig()
 
-
-
-
     # Have objects interact
-
+    j.eat(b),
 
     # replace the replace_me_object
     replace_me_object = b
