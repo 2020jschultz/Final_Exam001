@@ -69,12 +69,21 @@ def questionTwo():
     
     
 def part3():
-    
+    message = ""
+    with open ('four.txt') as fin:
+       for line in fin:
+          for achar in line:
+             if achar.isupper():
+                message += achar
+    return message
 
 
 if __name__ == "__main__":
     # questionOne()
-    questionTwo()
+   
+    # questionTwo()
+    
+    print(part3())
 
 if __name__ == "__main__":
     fun()
