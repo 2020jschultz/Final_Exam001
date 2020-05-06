@@ -10,6 +10,14 @@ def tell_story():
     b = Dragon()
     c = Gorilla()
     # Generate  as many other objects as you want
+    d = Beetle() 
+    e = Chipmunk() 
+    f = Snake() 
+    g = Cobra() 
+    h = Goat() 
+    i = Sheep() 
+    j = Donkey() 
+    k = Pig()
 
 
 
