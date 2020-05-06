@@ -24,8 +24,6 @@ def tell_story():
     e.eat(g)
     b.eat(d)
     b.eat(h)
-    b.eat(k)
-    b.eat(c)
     j.eat(b)
 
 
